@@ -1,7 +1,0 @@
-db: u7131589_marketplace
-user :	u7131589_user
-password : =V%74]pD+}{h
-
-
-cpanel = u7131589
-password = s8p5Cd_dJsK+
