@@ -1,0 +1,383 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+#Back-to-top { text-align: center; z-index: 99999; position: fixed; bottom: 40px; right: 30px; cursor: pointer; display: none; opacity: 0.7; } 
+#Back-to-top:hover { opacity: 1; } 
+.table-download th, 
+.table-download td{ border:1px dotted #cecece; padding-left:5px; padding-top:7px; padding-bottom:7px; }
+.dropdown-submenu {
+  position: relative;
+}
+
+
+
+body{
+	font-family: 'Lato', sans-serif !important;
+
+}
+
+.dropdown-menu > .dropdown {
+  position: relative;
+}
+
+.dropdown-menu > .dropdown a::after {
+  transform: rotate(-90deg);
+  position: absolute;
+  right: .9rem;
+  top: .9rem;
+}
+
+.dropdown-menu > .dropdown .dropdown-menu {
+  top: -.7rem;
+  left: 100%;
+  border-radius: 0 .25rem .25rem .25rem;
+}
+
+.rad 
+{
+	font-size: 25px;
+	font-family: 'Lato', sans-serif !important;
+	margin-top: 50px;
+	border-radius: 10px;
+ 	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  height: auto;
+
+
+
+}
+.rad1
+{
+	margin-top: 50px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	border-radius: 5px;
+
+
+
+}
+.rad img{
+	border-radius: 10px;
+}
+
+@media only screen and (max-width: 500px)  and (min-width: 128px){
+  .rad 
+	{
+		margin-top: 50px;
+		border-radius: 5px;
+
+		box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+
+
+	}
+	.rad1{
+		margin-top: 20px;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      border-radius: 5px;
+
+		
+	}
+	.rad img{
+		border-radius: 5px;
+	}
+	.inputsearch {
+		width: 200px !important;
+	}
+	.inputsearch input{
+		width: 200px !important;
+	}
+	.img-icon {
+		max-width: 60px;
+		
+	}
+	
+	.icon {
+		width: 50px;
+		margin-right: 15px;
+	}
+
+	.icon span{
+		margin-top: 5px;
+		font-size: 7px;
+		text-align: center;
+
+	}
+	.produk{
+	width: 10rem;
+	height: 300px !important;
+
+	max-width: 10rem;
+	
+
+
+	}
+  .produk h4{
+    font-size: 15px;
+  }
+
+	.produk img{
+		width: 149px;
+		height: 150px;
+
+	}
+
+
+	.title-product{
+		max-width: 150px ;
+		position: absolute ;
+	}
+	
+	.stok {
+		font-size: 10px !important;
+	}
+	.sps{
+	margin-top:100px !important;
+}
+  
+
+
+}
+.carousel-inner img {       
+   display:block;
+   height: auto; 
+   max-width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+
+	.img-icon{
+		max-width: 150px;
+
+	}
+	.icon {
+	width:200px;
+}
+.icon span{
+	text-align: center;
+	margin-top: 10px;
+}
+.produk{
+	width: 300px;
+	height: 450px !important;
+
+	max-width: 300px;
+	max-height: 450px !important;
+}
+.sps{
+	margin-top:80px !important;
+}
+
+
+
+}
+div.scrollmenu {
+ 
+  overflow: scroll;
+  white-space: nowrap
+   -webkit-overflow-scrolling: touch;
+}
+#style-15::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0.1);
+	background-color: #F5F5F5;
+	border-radius: 10px;
+}
+
+#style-15::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+#style-15::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #FFF;
+	background-image: -webkit-gradient(linear,
+									   40% 0%,
+									   75% 84%,
+									   from(#6d9cf6),
+									   to(#7ba5f6),
+									   color-stop(.6,#6284c4))
+}
+
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+
+  white-space: nowrap;
+
+
+  .card {
+    display: inline-block;
+  }
+}
+.scrolling-wrapper {
+  -webkit-overflow-scrolling: touch;
+}
+
+.scrolling-wrapper::-webkit-scrollbar {
+    display: none;
+
+}
+.gallery-wrap .img-big-wrap img {
+    height: 450px;
+    width: auto;
+    display: inline-block;
+    cursor: zoom-in;
+}
+
+
+.gallery-wrap .img-small-wrap .item-gallery {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ddd;
+    margin: 7px 2px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.gallery-wrap .img-small-wrap {
+    text-align: center;
+}
+.gallery-wrap .img-small-wrap img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+    cursor: zoom-in;
+}
+
+.menu{
+      text-align:center;
+      padding: 20px;
+   }
+
+   .slick-slide {margin: 0px 20px;}
+   .slick-slide img {width: 100%;}
+   .slick-slider {
+      position: relative;
+      display: block;
+      box-sizing: border-box;
+   }
+   .slick-list{
+      position: relative;
+      display: block;
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+   }
+   .slick-list:focus {
+       outline: none;
+   }
+   .slick-list.dragging {
+       cursor: pointer;
+       cursor: hand;
+   }
+
+   .slick-slider .slick-track,
+   .slick-slider .slick-list {
+       -webkit-transform: translate3d(0, 0, 0);
+          -moz-transform: translate3d(0, 0, 0);
+           -ms-transform: translate3d(0, 0, 0);
+            -o-transform: translate3d(0, 0, 0);
+               transform: translate3d(0, 0, 0);
+   }
+   .slick-track {
+      position: relative;
+      top: 0;
+      left: 0;
+      display: block;
+   }
+   .slick-track:before,
+   .slick-track:after {
+      display: table;
+      content: '';
+   }
+   .slick-track:after {
+      clear: both;
+   }
+   .slick-loading .slick-track {
+       visibility: hidden;
+   }
+   .slick-slide {
+      display: none;
+      float: left;
+      height: 100%;
+      min-height: 1px;
+   }
+   [dir='rtl'] .slick-slide {
+      float: right;
+   }
+   .slick-slide img {
+      display: block;
+   }
+   .slick-slide.slick-loading img {
+      display: none;
+   }
+   .slick-slide.dragging img {
+      pointer-events: none;
+   }
+   .slick-initialized .slick-slide {
+      display: block;
+   }
+   .slick-loading .slick-slide {
+      isibility: hidden;
+   }
+   .slick-vertical .slick-slide {
+      display: block;
+      height: auto;
+      border: 1px solid transparent;
+   }
+   .slick-arrow.slick-hidden {display: none;}
+    .slick-dots {
+  display: flex;
+  justify-content: center;
+  
+  margin: 0;
+  padding: 1rem 0;
+  
+  list-style-type: none;
+  }
+   .slick-dots li {
+      margin: 0 0.25rem;
+    }
+  
+  .slick-dots  button {
+      display: block;
+      width: 1rem;
+      height: 1rem;
+      padding: 0;
+      
+      border: none;
+      border-radius: 100%;
+      background-color: #6d9cf6;
+      
+      text-indent: -9999px;
+    }
+  
+    .slick-dots li.slick-active button {
+      background-color: #4981EF;
+    }
+  
+
+
+
+ .round{
+ 	text-decoration: none;
+ 	color: #6d9cf6;
+ }
+
+.feedback {
+  background-color : #31B0D5;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border-color: #46b8da;
+}
+
+#mybutton {
+  position: fixed;
+  bottom: 30px;
+  right: 10px;
+}
+
+
